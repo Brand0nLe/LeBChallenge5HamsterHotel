@@ -130,7 +130,7 @@ html {
   position: relative;
 }
 
-.roomService {
+.roomCards {
   max-height: 45%;
 }
 
@@ -329,6 +329,11 @@ html {
 
 /* @MEDIA CODE STARTS HERE */
 @media only screen and (max-width: 991px) {
+  .card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
   .reservetext {
     display: flex;
     align-items: center; 
@@ -344,6 +349,12 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+  .card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
   .reservetext{
     display: flex;
     align-items: center; 
