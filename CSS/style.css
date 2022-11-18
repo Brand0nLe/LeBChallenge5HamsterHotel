@@ -13,7 +13,6 @@
   font-family: DosisRegular;
   src: url(../fonts/Dosis-Regular.ttf)
 }
-
 /* end fonts */
 
 
@@ -48,7 +47,6 @@ html {
   color: #E5FEFF;
   outline-offset: -6px;
 }
-
 /* End nav bar code */
 
 
@@ -94,8 +92,10 @@ html {
   color: #E5FEFF;
   padding-bottom: 50px;
 }
-
 /* header picture and text code end */
+
+
+
 
 /* start hamster paradise section */
 .hamsterparadise1 {
@@ -107,8 +107,8 @@ html {
   font-size: 16px;
   font-family: SourceSansProRegular;
 }
-
 /* end hamster paradise section */
+
 
 
 
@@ -177,8 +177,9 @@ html {
 .card {
   border-radius: 0;
 }
-
 /* end code for Room section with 3 vertical cards */
+
+
 
 
 
@@ -189,13 +190,13 @@ html {
 }
 
 .packagetext2 {
-  font-size: 16px; 
+  font-size: 16px;
   font-family: SourceSansProRegular;
   color: #1F51A8;
 }
 
 .packagetext3 {
-  font-size: 16px; 
+  font-size: 16px;
   font-family: SourceSansProRegular;
 }
 
@@ -243,26 +244,22 @@ html {
 .amenitiestext1 {
   font-size: 35px;
   font-family: DosisRegular;
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 
 .amenitiestext2 {
   font-size: 16px;
   font-family: SourceSansProRegular;
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 
 .amenitiestext3 {
   font-size: 20px;
   font-family: SourceSansProBold;
-  color:#FFFFFF;
+  color: #FFFFFF;
   text-align: center;
 }
 /* END AMENITIES */
-
-
-
-
 
 
 
@@ -284,29 +281,22 @@ html {
 }
 
 .reserveroomtitle {
-  font-size: 35px; 
+  font-size: 35px;
   font-family: DosisRegular;
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 
 .reservetext {
-  font-size: 16px; 
+  font-size: 16px;
   font-family: SourceSansProRegular;
-  color:#E5FEFF;
+  color: #E5FEFF;
 }
 
 .reservebtntext {
   font-size: 20px;
   font-family: SourceSansProBold;
 }
-.pb-3{
-  display: flex;
-  justify-content: center;
-}
 /* End of reservations code */
-
-
-
 
 
 
@@ -322,13 +312,14 @@ html {
   color: white;
   text-align: center;
 }
-.footertext1{
-  font-size: 16px; 
+
+.footertext1 {
+  font-size: 16px;
   font-family: SourceSansProRegular;
 }
 
-.footertext2{
-  font-size: 16px; 
+.footertext2 {
+  font-size: 16px;
   font-family: SourceSansProRegular;
 }
 /* end footer */
@@ -337,8 +328,39 @@ html {
 
 
 /* @MEDIA CODE STARTS HERE */
+@media only screen and (max-width: 991px) {
+  .reservetext {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  .col-lg-2,
+  .col-lg-3{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .reservetext{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+
+  .col-lg-2,
+  .col-lg-3{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-height: 768px) {
-  .herotext2{
+  .herotext2 {
     padding-top: 10px;
     padding-bottom: 10px;
   }
