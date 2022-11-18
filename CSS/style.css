@@ -299,6 +299,10 @@ html {
   font-size: 20px;
   font-family: SourceSansProBold;
 }
+.pb-3{
+  display: flex;
+  justify-content: center;
+}
 /* End of reservations code */
 
 
